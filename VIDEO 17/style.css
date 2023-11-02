@@ -15,3 +15,46 @@ div{
 #green{
     background-color: green;
 }
+
+/* child selectors */
+
+div > p {     /* direct child */
+    color: black;
+    background-color: orchid;
+}
+
+/* Decendant Selector ! */
+
+div p {   /* Any child */
+    color: black;
+    background-color: orchid;
+}
+
+/* Universal Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Pseudo Selector */
+
+a:visited{
+    color: green;
+}
+
+a:link{
+    color: black;
+}
+
+a:active{
+    background-color: aquamarine;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+p:first-child{
+    background-color: aqua;
+}
