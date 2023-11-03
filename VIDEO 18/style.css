@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: aqua;
+}
+
+.box1 {
+    color: yellow;
+    padding: 10px;
+    margin: 25px;                /* It does not include border and padding */
+    border: 2px solid blue;
+    height: 50px;
+    box-sizing: border-box;      /* It means the total box includes content + border + padding. That is 50px */
+}
+
+
+
+.box2 {
+    color: red;
+    padding: 10px;
+    margin: 35px;                /* Margin collapse will select the highest margin and will reflect between the elements. */
+    border: 2px solid black;
+    height: 50px;
+    box-sizing: border-box;
+}
