@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+
+.pink{
+    color: pink;
+}
+
+.yellew{
+    color: yellow;
+}
+
+.purple{
+    color: purple;     /* If the selectors of an element are of same type, the last declaration will reflect the change. */
+}
