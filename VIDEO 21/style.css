@@ -1,5 +1,5 @@
 
- /*  Specificity Order & Values:  Inline -1000 -> ID - 100 -> Class or Attribute - 10 -> Element - 1 -> Universal - 0  */
+ /*  Specificity Order & Values:  Inline - 1000 -> ID - 100 -> Class or Attribute - 10 -> Element - 1 -> Universal - 0  */
 
 h1{
     color: blue;         
