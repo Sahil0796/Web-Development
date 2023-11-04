@@ -1,15 +1,19 @@
+
+ /*  Specificity Order & Values:  Inline -1000 -> ID - 100 -> Class or Attribute - 10 -> Element - 1 -> Universal - 0  */
+
 h1{
-    color: blue;
+    color: blue;         
 }
-
-.pink{
-    color: pink;
-}
-
+                         
 .yellew{
     color: yellow;
 }
 
 .purple{
-    color: purple;     /* If the selectors of an element are of same type, the last declaration will reflect the change. */
+    color: purple;     
 }
+
+.pink{
+    color: pink;     /*  If the selectors of an element are of same type, the last declaration will reflect the change.  */
+}
+
