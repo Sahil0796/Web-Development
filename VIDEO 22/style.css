@@ -1,4 +1,8 @@
 
+/*  em - Relative to the font size of the parent element. Eg: 5em means the size would be 5 times the current font size. According to Parent Element.  */ 
+
+/*  rem - Relative to the font size of the root element. According to Root Element.  */
+
  *{
     margin: 0;
     padding: 0;
@@ -33,3 +37,4 @@
     text-align: center;
     height: 50vh;
 }
+
