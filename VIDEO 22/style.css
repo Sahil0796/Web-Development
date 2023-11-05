@@ -21,20 +21,22 @@
 .box{
     box-sizing: border-box;
     border: 2px solid black;
-    width: 80vw;
+    /* width: 80vw; */
     background-color: aquamarine;
     margin: auto;
     height: 10vh;
     text-align: center;
+    width: 50%;
 }
 
 .container{
     box-sizing: border-box;
     border: 5px solid black;
-    width: 80vw;
+    width: 90vw;
     background-color: aquamarine;
     margin: 25px auto;
+    min-height: 50vh;
     text-align: center;
-    height: 50vh;
+    
 }
 
