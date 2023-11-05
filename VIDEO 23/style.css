@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container{
+    border: 2px solid gray;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+ .div1{                                         /*  Important display properties : https://developer.mozilla.org/en-US/docs/Web/CSS/display ! */
+    display: inline;
+    /* visibility: hidden; */
+    border: 2px solid gray;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+span{
+    color: aqua;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
