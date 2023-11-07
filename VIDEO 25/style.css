@@ -1,0 +1,13 @@
+ul{
+    display: flex;
+    
+}
+
+
+nav ul li{
+    list-style: none;
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid white;   
+    
+}
