@@ -1,0 +1,19 @@
+.box{
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid black;
+
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+
+    overflow: hidden auto;
+
+    /* overflow: x y; */
+
+    /* white-space: nowrap; */
+
+}
+
+
+
+
