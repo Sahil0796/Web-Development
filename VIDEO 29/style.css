@@ -1,0 +1,46 @@
+.main{
+    height: 90vh;
+    width: 25vw;
+    background-color: black;
+    position: fixed;
+    border-radius: 10px;
+    left: 550px;
+
+}
+
+img{
+    
+    position: absolute;
+    border-radius: 15px;
+    left: 28px;
+    top: 15px;
+
+}
+
+h1{
+    color: white;
+    position: relative;
+    top: 350px;
+    left: 18%;
+    align-items: center;
+
+
+}
+
+p{
+    position: absolute;
+    color: aqua;
+    top: 430px;
+    left: 5px;
+}
+
+button{
+    position: absolute;
+    top: 550px;
+    left: 135px;
+    padding: 10px;
+    border-radius: 10px;
+    color: blue;
+    
+}
+
