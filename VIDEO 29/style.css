@@ -1,46 +1,71 @@
-.main{
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kay+Pho+Du:wght@700&family=Poppins:ital,wght@1,100&display=swap');
+
+* {
+    background-color: gray;
+}
+
+.main {
+    position: relative;
     height: 90vh;
     width: 25vw;
     background-color: black;
     position: fixed;
     border-radius: 10px;
     left: 550px;
-
+    top: 35px;
+    border: 5px solid aqua;
 }
 
-img{
-    
-    position: absolute;
-    border-radius: 15px;
-    left: 28px;
-    top: 15px;
-
-}
-
-h1{
-    color: white;
-    position: relative;
-    top: 350px;
-    left: 18%;
-    align-items: center;
-
-
-}
-
-p{
-    position: absolute;
-    color: aqua;
-    top: 430px;
-    left: 5px;
-}
-
-button{
-    position: absolute;
-    top: 550px;
-    left: 135px;
-    padding: 10px;
+.image img {
     border-radius: 10px;
-    color: blue;
+    border: 2px solid white;
+    position: absolute;
+    top: 25px;
+    left: 28px;
+    height: 290px;
+}
+
+.capsules {
+    position: absolute;
+    top: 350px;
+    background-color: black;
+    left: 28px;
+}
+
+.capsules span {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.heading h1 {
+    position: absolute;
+    top: 380px;
+    left: 28px;
+    background-color: black;
+    color: white;
     
 }
 
+.para p {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Kay Pho Du', serif;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 425px;
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    font-size: 15px;
+    left: 20px;
+}
+
+.button button {
+    position: absolute;
+    top: 575px;
+    left: 142px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
