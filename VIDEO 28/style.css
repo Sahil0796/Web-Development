@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+
+    height: 450px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.box1{
+    background-color: aqua;
+    position: absolute;              /*  Nearest Position ancestor !  */
+    top: 0px;
+    left: 5px;
+    /* position: sticky;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    top: 0px; */
+
+
+}
+
+.box2 {
+    background-color: aquamarine;
+    /* position: relative;
+    top: 40px;
+    left: 50px;  */
+
+}
+
+.box3 {
+    background-color: azure;                /* Positions: Relative, Absolute, Fixed, Sticky. */
+    /* position: relative; */
+    /* z-index: 1; */
+    /* position: fixed; */
+    /* bottom: 0px; */
+    /* left: 10vw; */
+
+} 
+
+.box4{
+    background-color: blanchedalmond;
+
+}
+
+.parent{                               /* transform, filter, perspective properties can also make an element appear as positioned. */
+    padding: 30px;                                                   
+    margin: 40px;
+    border: 2px solid aqua;
+    background-color: black;
+    position: sticky;
+}
