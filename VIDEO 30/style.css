@@ -2,11 +2,16 @@
 :root{
     --color: rgb(223, 18, 216);                 /*  Global Variables in CSS.  */
     --seccolor: rgb(230, 80, 225); 
+    --defpad: 25px;
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    text-align:  center;
 }
 
 ul{
@@ -15,7 +20,8 @@ ul{
 
 ul li{
     list-style: none;
-    padding: 25px;
+    padding: var(--defpad);
+    border: 2px solid black;
 }
 
 ul li:first-child{
@@ -29,4 +35,5 @@ ul li:first-child{
 
 .container{
     background-color: var(--seccolor);
+    border: 2px solid greenyellow;
 }
