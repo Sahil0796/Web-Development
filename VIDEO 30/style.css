@@ -1,0 +1,32 @@
+
+:root{
+    --color: rgb(223, 18, 216);                 /*  Global Variables in CSS.  */
+    --seccolor: rgb(230, 80, 225); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 25px;
+}
+
+ul li:first-child{
+    --color: rgb(231, 21, 21);                    /*  Local Variables in CSS.  */
+    background-color: var(--color);
+}
+
+.nav{
+    background-color: var(--color);
+}
+
+.container{
+    background-color: var(--seccolor);
+}
