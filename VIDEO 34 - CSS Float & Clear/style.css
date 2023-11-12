@@ -1,0 +1,19 @@
+
+img{
+    float: left;
+}
+
+.cards{
+    border: 2px solid black;
+    display: flow-root;                /* Elements within the container will fit in properly. */
+}
+
+.card{
+    border: 2px solid red;
+}
+
+.card:nth-child(3){
+    background-color: aqua;
+    clear: both;                   /* Clear property will remove any other element from left or right or both. */
+}
+
