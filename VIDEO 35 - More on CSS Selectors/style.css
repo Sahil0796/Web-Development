@@ -18,3 +18,40 @@
     background-color: blue;              /* Attribute Selector */
 }
 
+.boxes :nth-child(1){
+    background-color: blueviolet;
+}
+
+.boxes :nth-child(3){
+    background-color: blueviolet;
+}
+
+.boxes::before{                                     /* Add content before or after of an element, They are called CSS Pseudo-elements */
+    content: "Tony is awesome !";          
+    background-color: brown;
+}
+
+.boxes::after{
+    content: "Let's become a developer !";          /* Add content before or after of an element */
+    background-color: aquamarine;
+}
+
+::selection{
+    color: aqua;
+    background-color: black;
+}
+
+.box::first-letter{
+    color: tomato;
+    font-size: 40px;
+}
+
+input::placeholder{
+    color: rgb(109, 130, 130);
+    
+}
+
+
+
+
+
