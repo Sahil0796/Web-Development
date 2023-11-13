@@ -1,0 +1,20 @@
+/* 
+.box:first-child{
+    background-color: aqua;
+} */
+
+
+/* .box:nth-child(odd){
+    background-color: blanchedalmond;
+} */
+
+
+/* .box:nth-last-child(1){
+    background-color: red;
+} */
+
+
+[data-color="primary"]{
+    background-color: blue;              /* Attribute Selector */
+}
+
