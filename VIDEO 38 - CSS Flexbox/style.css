@@ -1,16 +1,15 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .container{
     border: 5px solid black;
     height: 80vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */                  /* justify-content will align according to main axis. */
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;                                /* Overflow content will take place in the next rows. */
+    align-content: center;                          /* More than one lines will be adjusted. */
+    /* There is no justify-items in flexbox. */
+    flex-flow: row row-reverse;
 }
 
 .items{
@@ -18,8 +17,12 @@
     width: 62px;
     background-color: blueviolet;
     border: 2px solid aqua;
-    margin: 4px;    
+    margin: 4px; 
+    text-align: center; 
+    color: white;
 }
+
+
 
 
 
