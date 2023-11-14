@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 5px solid black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items{
+    height: 62px;
+    width: 62px;
+    background-color: blueviolet;
+    border: 2px solid aqua;
+    margin: 4px;    
+}
+
+
+
+
+
+
