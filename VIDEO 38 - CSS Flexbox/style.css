@@ -2,25 +2,36 @@
 .container{
     border: 5px solid black;
     height: 80vh;
+    padding: 10px;
     display: flex;
-    /* justify-content: center; */                  /* justify-content will align according to main axis. */
+    /* justify-content: center; */                      /* justify-content will align according to main axis. */
     align-items: center;
     /* flex-direction: column; */
-    flex-wrap: wrap;                                /* Overflow content will take place in the next rows. */
-    align-content: center;                          /* More than one lines will be adjusted. */
+    flex-wrap: wrap;                                    /* Overflow content will take place in the next rows. */
+    /* align-content: flex-start; */                    /* More than one lines will be adjusted. */
     /* There is no justify-items in flexbox. */
-    flex-flow: row row-reverse;
+    flex-flow: row wrap;
+    gap: 20px;                                          /* It will give gap between the items. */
+    row-gap: 5px;
+    column-gap: 50px;
+    /* gap: 10px 20px; */                               /* Another way to define Row-gap and Column-gap. */
 }
+
 
 .items{
     height: 62px;
     width: 62px;
     background-color: blueviolet;
     border: 2px solid aqua;
-    margin: 4px; 
+    /* margin: 4px;  */
     text-align: center; 
     color: white;
+    flex-grow: 1;                                        /* Element will start taking place with the speed you set. */
+    flex-shrink: 1;                                      /* Element will start reducing place with the speed you set. */
+    align-self: auto;                                    /* Want to adjust the position of a particulare element. */
 }
+
+
 
 
 
