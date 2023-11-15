@@ -15,8 +15,8 @@
 }
 
 .item-1{
-    grid-row: 1/2;                    /* 1 represents grid-row starting point & 2 represents grid-row end point. */
-    grid-column: 1/2;                 /* 1 represents grid-column starting point & 2 represents grid-column end point. */
+    grid-row: 1/2;                    /* 1 represents grid-row starting line point & 2 represents grid-row end line point. */
+    grid-column: 1/2;                  /* 1 represents grid-column starting line point & 2 represents grid-column end line point. */
 }
 
 .item-4{

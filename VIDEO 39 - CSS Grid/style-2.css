@@ -3,23 +3,45 @@
 .container{
     border: 2px solid black;
     display: grid;
-    grid-template-columns: 120px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "nav nav nav"                      /* How many sections you want to combine. */
+                         "side article article"
+                         "footer footer footer";
 }
 
 
 .item{
-   border: 2px solid blue;
+   border: 2px solid rgb(255, 81, 0);
    height: 55px;
-   width: 55px;
 }
+
 
 .item-1{
-   grid-row: 1/2;                    /* 1 represents grid-row starting point & 2 represents grid-row end point. */
-   grid-column: 1/2;                 /* 1 represents grid-column starting point & 2 represents grid-column end point. */
+    grid-area: nav;
+    background-color: aqua;
 }
 
-.item-4{
-   grid-row: 1/2;
-   grid-column: 1/2;
+
+.item-2{
+    grid-area: side;
+    background-color: yellowgreen;
 }
+
+
+.item-3{
+    grid-area: article;
+    background-color: beige;
+}
+
+
+.item-4{
+    grid-area: footer;
+    background-color: blanchedalmond;
+}
+
+
+.item-5{
+    background-color: chartreuse;
+}
+
+
+
