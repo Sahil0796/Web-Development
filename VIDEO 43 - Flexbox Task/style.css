@@ -1,0 +1,35 @@
+
+.logo{
+    height: 25px;
+    width: 40px;
+    background-color: aqua;
+}
+
+.logo img{
+    width: 164px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.right ul{
+    display: flex;
+    list-style-type: none;
+    gap: 34px;
+}
+
+.right ul li{
+    display: flex;
+    align-items: center;
+}
+
+.right ul li span{
+    padding: 0px 5px;
+    cursor: pointer;
+}
