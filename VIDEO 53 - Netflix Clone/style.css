@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kay+Pho+Du:wght@700&family=Martel+Sans:wght@600;700;900&family=Poppins:ital,wght@0,700;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+
+.main {
+    background-image: url("Assets/Images /bg.jpeg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+}
+
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+
+nav {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    font-weight: bold;
+
+
+    
+}
+
+.b2 {
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+    font-weight: bold;
+    
+}
+
+.gs{
+    background-color: red;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.content {  
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+
+}
+
+.content> :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.content> :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(41, 36, 36);
+    
+}
+
+.main input{
+    padding: 7px 100px 8px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(107, 96, 96, 0.5);;
+    font-weight: 900;
+}
+
+.content-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
