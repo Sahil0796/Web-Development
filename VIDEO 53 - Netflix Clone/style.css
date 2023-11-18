@@ -57,21 +57,24 @@ nav button {
     border-radius: 5px;
 }
 
-.b1 {
-    background-color: black;
+.b1{
     color: white;
-    padding: 3px 10px;
-    font-weight: bold;
+    background-color: rgba(88, 61, 61, 0.021);
+    padding: 7px 25px;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 
-
-    
 }
 
-.b2 {
+.b2{
     background-color: red;
     color: white;
-    padding: 3px 10px;
-    font-weight: bold;
+    padding: 7px 25px;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid white;
     
 }
 
@@ -79,7 +82,10 @@ nav button {
     background-color: red;
     color: white;
     padding: 10px 35px;
+    font-weight: 500;
+    border: 1px solid white;
     border-radius: 4px;
+    cursor: pointer;
     font-size: 12px;
 }
 
@@ -128,7 +134,7 @@ nav button {
     font-size: 12px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(107, 96, 96, 0.5);;
-    font-weight: 900;
+    color: white;
 }
 
 .content-buttons{
@@ -137,3 +143,63 @@ nav button {
     align-items: center;
     gap: 16px;
 }
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    position: relative;
+    z-index: 10;
+    width: 30vw;
+}
+
+.secImg video{
+    position: absolute;
+    top: 68px;
+    right: 60px;
+}
+
+section.first > div :first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.third video{
+    position: absolute;
+    top: 40px;
+    right: 80px
+}
+
+.faq{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
