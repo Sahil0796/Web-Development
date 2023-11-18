@@ -40,12 +40,12 @@ nav {
     max-width: 60vw;
     margin: auto;
     justify-content: space-between;
-    height: 60px;
+    height: 100px;
 }
 
 nav img {
     color: red;
-    width: 120px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -91,7 +91,7 @@ nav button {
 
 .content {  
     font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 60px);
+    height: calc(100% - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +164,7 @@ nav button {
 .secImg img{
     position: relative;
     z-index: 10;
-    width: 30vw;
+    width: 30vw
 }
 
 .secImg video{
@@ -196,10 +196,64 @@ section.first > div :nth-child(2){
 
 .faq{
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: black;
+    padding: 35px;
 }
 
+.faq h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #414141;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.faqbox:hover{
+       background-color: #2d2d2d;    
+       color: white;
+}
+
+.faqbox svg{
+    filter: invert(1);
+}
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions{
+    padding: 25px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-size: 14px;
+    
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 
