@@ -36,7 +36,7 @@
 
 let s = {
     name: "Sahil Bhandari",
-    "Job Role:": 007, 
+    "Job Role:": 7, 
     "is_mad": true
 }
 
