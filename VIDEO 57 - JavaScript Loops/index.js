@@ -13,16 +13,17 @@ LOOPS !
 
 */
 
-// FOR LOOP !
+// FOR LOOP !  -  This is a basic loop.
 
-// let a = 1;
+let a = 1;
 
 for(i=0; i<100; i++){
     console.log(i);
 }
 
 
-// FOR IN LOOP !
+
+// FOR IN LOOP !  -  This loop will work with objects.
 
 let obj = {
     name: "Tony",
@@ -37,6 +38,7 @@ for (const key in obj) {
 }
 
 
+
 // FOR OF LOOP !  -  Iterate data structures like arrays and strings.
 
 for (const s of "Sahil") {
@@ -44,4 +46,24 @@ for (const s of "Sahil") {
 }
 
 
-// 
+
+// WHILE LOOP !  -  While loop will check the condition first.
+
+let s = 10;
+
+while (s<11) {
+    console.log(s)
+    s++;
+}
+
+
+
+// DO - WHILE LOOP !  -  This loop will run atleast one time.
+
+let b = 10;
+do {
+    console.log(b)
+    b++;
+} while (b<5);
+
+
