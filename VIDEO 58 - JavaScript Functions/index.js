@@ -18,10 +18,12 @@ function sum(a, b, c=10) {      // c is a default parameter value of the functio
 result1 = sum(15, 5);
 result2 = sum(1, 5);
 result3 = sum(5, 50, 20);
+result4 = sum(5, 51, 10);
 
 console.log("The sum of your number is: ", result1);
 console.log("The sum of your number is: ", result2);
 console.log("The sum of your number is: ", result3);
+console.log("The sum of your number is: ", result4);
 
 
 
