@@ -7,12 +7,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="box">
+        <div class="box" style="display:flex;">
             I am a box !
         </div>
     </div>
 
     <script src="script.js">
+
+           let cont = document.querySelector(".container");
+
+           cont.insertAdjacentHTML("beforebegin", "<b> I am under the water, Hey !</b>");
 
     </script>
 </body>
