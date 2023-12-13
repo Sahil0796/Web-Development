@@ -1,0 +1,46 @@
+/* .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid greenyellow;
+    background-color: aquamarine;
+} */
+
+.child{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.childcontainer{
+    background-color: beige;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.container{
+    background-color: palegreen;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
