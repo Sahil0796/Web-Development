@@ -5,11 +5,11 @@
 /* 
 LOOPS !
 
-1. for loop. - loop a block of code number of times.
-2. for in loop. - loops through the keys of an object.
-3. for of loop. - loops through the values of an object.
-4. while loop. - loops a block based on a specific condition.
-5. do-while loop. - while loop variant which returns atleast once.
+1. for loop.        -     Loop a block of code number of times.
+2. for in loop.     -     Loops through the keys of an object.
+3. for of loop.     -     Iterate data structures like arrays and strings.
+4. while loop.      -     Loops a block based on a specific condition.
+5. do-while loop.   -     While loop variant which returns atleast once.
 
 */
 
