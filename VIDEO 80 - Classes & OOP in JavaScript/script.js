@@ -39,12 +39,12 @@ class Animal {
 
 class Lion extends Animal {                   // Class Inheritance is a way for one class to extend another class. This is done by using extends keyword.
     constructor(name) {
-        super(name)
+        super(name)                                               // If you want to run a method from a super class. Use super()
         console.log("Object is created....... and All set !");
     }
 
     eats() {
-        console.log("I am Eating and Drinking !");
+        console.log("I am Eating and Drinking !");      // Method Overriding, Any changes will be particular to that class only.
     }
 }
 
@@ -60,3 +60,5 @@ console.log(typeof a);
 
 console.log(typeof b);
 
+//   instanceof :  The instanceof operator allows to check whether an object belongs to a certain class.
+//   Syntax :  <object> instanceof <class>
