@@ -83,6 +83,9 @@ console.log(z);
 // HOISTING !
 // Only works with VAR declaration.
 
+// Hoisting refers to the process whereby the interpreter appears to move the declarations to the top of the code before execution. 
+// Variables can thus be referenced before they are declared in JavaScript.
+
 
 
 
