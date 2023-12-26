@@ -29,17 +29,67 @@ async function sleep() {
 
 
 
-// DESTRUCTURING !
+// DESTRUCTURING ! + ...rest operator !
 
 // Destructuring is assignment is used to unpack values from an array, or properties from objects into distinct variables.
 
 
+// (async function main() {
+
+//     let [x, y, ...rest] = [10, 20, 30, 40, 50, 60, 70];
+//     console.log(x, y, rest);
+    
+//    })()
+
+
 (async function main() {
 
-    let [x, y] = [10, 20, 30];
-    console.log(x, y);
-    
+    let obj = {
+        a : 1,
+        b : 2,
+        c : 3
+    }
+
+    let {a, b, c} = obj
+    console.log(a, b, c); 
    })()
+
+
+// SPREAD OPERATOR
+
+   sum = (a, b, c) =>{
+        return a+b+c
+   }
+
+   let arr = [10, 20, 30]
+   console.log(sum(arr[0], arr[1], arr[2]));
+   console.log(sum(...arr));
+   
+   
+function show (){
+    // let z = 100;    // Local to the function.
+    console.log(z);
+    
+}
+
+let z = 110;          // Global to everyone.
+
+show()
+
+console.log(z);
+
+
+
+// HOISTING !
+// Only works with VAR declaration.
+
+
+
+
+
+
+
+
 
 
 
