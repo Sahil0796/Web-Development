@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kay+Pho+Du:wght@700&family=Martel+Sans:wght@600;700;900&family=Poppins:ital,wght@0,700;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.right {
+    width: 75vw;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+.home {
+    padding: 10px;
+}
+
+
+.home ul li {
+    display: flex;
+    gap: 15px;
+    width: 15px;
+    list-style: none;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.heading{
+        display: flex;
+        gap: 15px;
+        width: 100%x;
+        padding-top: 15px;
+        padding: 20px 15px;
+        font-weight: bold;
+        align-items: center;
+        font-size: 10px;
+    }
+
+
+.heading img{
+    width: 30px;
+} 
+
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    font-size: 9px;
+    color: grey;
+    gap: 12px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+
