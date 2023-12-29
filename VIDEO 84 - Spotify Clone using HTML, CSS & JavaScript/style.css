@@ -16,7 +16,10 @@ body {
 
 .right {
     width: 75vw;
+    margin: 16px 0;
+    position: relative;
 }
+
 
 .left {
     width: 25vw;
@@ -66,6 +69,7 @@ body {
     gap: 12px;
     position: absolute;
     bottom: 0;
+    padding: 20px 0;
 }
 
 .footer a{
@@ -73,3 +77,113 @@ body {
     text-decoration: none;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    height: 70px;
+
+}
+
+.header > *{
+      padding: 12px;
+}
+
+.spotifyplaylist{
+    padding: 10px;
+}
+
+
+.cardContainer{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin: 15px;
+    overflow-y: scroll;
+    max-height: 60vh;
+    
+}
+
+.card{
+    width: 200px;
+    /* margin: 5px; */
+    padding: 10px;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 10px; 
+    position: relative;
+}
+
+.card h2{
+    color: black;
+}
+
+.card > *{
+    padding-top: 10px;
+    
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.play{
+    position: absolute;
+    top: 170px;
+    left: 152px;
+    background-color: rgb(124, 236, 124);
+    border-radius: 20px;
+    display: flex;
+    margin-left: 8px;    
+    padding: 10px;
+    opacity: 0;
+    transition: all 1s ease-out;   
+}
+
+.buttons > *{
+    margin: 0 12px;
+}
+
+.signupbtn{
+    background-color: rgb(34, 34, 34);
+    color: rgb(126, 122, 122);
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+
+}
+
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+
+.loginbtn{
+    background-color: white;
+    border-radius: 22px;
+    width: 110px;
+    color: black;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(127, 183, 127);
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+}
