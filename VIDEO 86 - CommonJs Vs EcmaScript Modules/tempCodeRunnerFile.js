@@ -1,2 +1,2 @@
-import {a, b} from "./mymodules.js"
-console.log(a, b);
+const a = require("./mymodules2.js")
+console.log(a)
