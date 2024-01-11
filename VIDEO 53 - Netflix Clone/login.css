@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    
+}
+
+
+.main{
+    background-image: url("Assets/Images /bg.jpeg");
+    height: 120vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 130vw);
+    background-color: black;
+}
+
+.main .container {
+    height: 100vh;
+    width: 35vw; 
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;    
+}
+
+.container form{
+    position: absolute;
+    top: 110px;
+   
+}
+
+.container button{
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid red;
+
+}
+
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 170px;
+    position: relative;
+    z-index: 10;
+    right: 200px;
+    top: 25px;
+}
+
+
+.container input{
+    border-radius: 4px;
+    border: 2px solid black;
+    width: 300px;
+    height: 60px;
+    font-size: 14px;
+    padding: 10px;
+    /* transition: .3s ease-in-out; */
+
+}
+
+.container h2{
+    font-size: 20px;
+    margin-top: 120px;
+    color: #8c8c8c;
+}
+
+.container a{
+    color: white;
+}
+
+.container a:hover{
+    color: white;
+}
+
+.container p{
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.learn p{
+    font-size: 14px;
+    color: #8c8c8c;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+
+.learn a{
+    color: #0071eb;
+    font-weight: 300;
+}
+
+.learn a:hover{
+    color: #0071eb;
+}
+
+
