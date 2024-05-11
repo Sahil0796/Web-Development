@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
 
-  const a = useRef(0);
+  const a = useRef(0);   // Here we are persisting the value of "a" by using useRef Hook.
 
 
   useEffect(() => {
