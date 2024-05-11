@@ -7,13 +7,13 @@ function App() {
   const [count, setCount] = useState(0)
 
 
-  const btnRef = useRef()
+  const a = useRef(0);   // Here we are persisting the value of "a" by using useRef Hook.
 
 
   useEffect(() => {
-    console.log(`First Rerendering...`);
-    btnRef.current.style.backgroundColor = "green"
-  },[ ]);
+    a.current = a.current + 1;
+    console.log(`Rerendering and the value of a is ${a.current}..`);
+  });
 
   return (
     <>
@@ -27,7 +27,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button ref={btnRef} onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
@@ -37,7 +37,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <button onClick={()=>{btnRef.current.style.display = "none"}}>Hide The Count !</button>
     </>
   )
 }
