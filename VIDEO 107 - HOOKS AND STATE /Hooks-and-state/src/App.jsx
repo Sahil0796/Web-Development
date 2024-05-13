@@ -5,10 +5,17 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  
+
+  useEffect(() => {
+    alert("I am useEffect Hook !");
+  }, [])
+
 
   useEffect(() => {
     alert("The count has changed !");
   }, [count])
+  
   
 
   return (
