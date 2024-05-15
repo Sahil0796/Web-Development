@@ -1,0 +1,34 @@
+.card{
+  border: 2px solid black;
+  max-width: 25vw;
+  margin: 30px;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  border: 2px solid black;
+}
+
+nav, ul{
+  display: flex;
+  gap: 25px;
+  padding: 10px 5px ;
+  background-color: aqua;
+}
+
+li{
+  list-style: none;
+}
