@@ -13,10 +13,9 @@ function App() {
 
 
   const handleAdd = () => {
-    setTodos([...todos, { id: uuidv4(), isCompleted: false }])
+    setTodos([...todos, { id: uuidv4(), todo, isCompleted: false }])
     setTodo("")
     console.log(todos)
-
   }
 
   const handleChange = (e) => {
@@ -31,7 +30,7 @@ function App() {
 
   const handleDelete = (e, id) => {
     let newTodos = todos.filter(item=>{
-      return item.id!==id;
+      return item.id!==id
     });
     setTodos(newTodos)
 
@@ -77,7 +76,7 @@ function App() {
 
               <input name={item.id} onChange={handleCheckbox} type="checkbox" value={item.isCompleted} id="" />
 
-              <div className={item.isCompleted ? "line-through" : ""}>{item.todo}</div>
+              <div className={item.isCompleted?"line-through":""}>{item.todo}</div>
 
               <div className="buttons">
 
