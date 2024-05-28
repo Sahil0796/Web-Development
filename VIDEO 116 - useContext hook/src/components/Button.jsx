@@ -1,6 +1,5 @@
 import React from 'react'
-import Component1 from './Component1'
-
+import Component1 from './component1'
 
 const Button = () => {
     return (
