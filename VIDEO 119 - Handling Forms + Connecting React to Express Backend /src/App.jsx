@@ -8,12 +8,12 @@ function App() {
   const {
     register,
     handleSubmit,
-    watch,
+    setError,
     formState: { errors, isSubmitting },
   } = useForm()
 
 
-  const delay = (d) =>{
+  const delay = (d) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve()
@@ -25,22 +25,31 @@ function App() {
   const onSubmit = async (data) => {
     await delay(2)                    // Simulating Network Delay !
     console.log(data)
+    if (data.username !== "Sahil") {
+      setError("myform", { message: "Your form is not valid, Kindly check and try again !" })
+    }
+    if (data.username === "TonyStark") {
+      setError("blocked", { message: "This user is blocked and does not exists !" })
+
+    }
   }
 
 
 
   return (
     <>
-    {isSubmitting && <div>Please Wait... Submitting your form !</div>}
+      {isSubmitting && <div>Please Wait... Submitting your form !</div>}
       <div className="container">
         <form action="" onSubmit={handleSubmit(onSubmit)}>
-          <input placeholder='username' {...register("username", { required: {value: true, message: "This field is required."}, minLength: {value: 5, message: "Minimum length is 5"}, maxLength: {value: 10, message: "Maximum length is 10"} })} type="text" />
+          <input placeholder='username' {...register("username", { required: { value: true, message: "This field is required." }, minLength: { value: 5, message: "Minimum length is 5" }, maxLength: { value: 10, message: "Maximum length is 10" } })} type="text" />
           {errors.username && <div className='red'>{errors.username.message}</div>}
           <br />
-          <input placeholder='password' {...register("password", { required: {value: true, message: "This field is required."}, minLength: {value: 5, message: "Minimum length of password is 5"}, maxLength: {value: 10, message: "Maximum length is 10"},})} type="password" />
+          <input placeholder='password' {...register("password", { required: { value: true, message: "This field is required." }, minLength: { value: 5, message: "Minimum length of password is 5" }, maxLength: { value: 10, message: "Maximum length is 10" }, })} type="password" />
           {errors.password && <div className='white'>{errors.password.message}</div>}
           <br />
           <input disabled={isSubmitting} type="submit" value="Submit" />
+          {errors.myform && <div className='white'>{errors.myform.message}</div>}
+          {errors.blocked && <div className='white'>{errors.blocked.message}</div>}
         </form>
       </div>
     </>
