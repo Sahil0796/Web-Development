@@ -21,17 +21,17 @@ function App() {
     })
   }
 
-
   const onSubmit = async (data) => {
-    await delay(2)                    // Simulating Network Delay !
-    console.log(data)
-    if (data.username !== "Sahil") {
-      setError("myform", { message: "Your form is not valid, Kindly check and try again !" })
-    }
-    if (data.username === "TonyStark") {
-      setError("blocked", { message: "This user is blocked and does not exists !" })
-
-    }
+    // await delay(2)                    // Simulating Network Delay !
+    let r = await fetch("http://localhost:3000/", {method: "POST", headers: { "Content-Type": "application/json", }, body: JSON.stringify(data)})
+    let res = await r.text()
+    console.log(data, res)
+    // if (data.username !== "Sahil") {
+    //   setError("myform", { message: "Your form is not valid, Kindly check and try again !" })
+    // }
+    // if (data.username === "TonyStark") {
+    //   setError("blocked", { message: "This user is blocked and does not exists !" })
+    // }
   }
 
 
