@@ -119,7 +119,7 @@ main hr {
     height: 100px;
     width: 2px;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 6vw;
 }
 
 .image-top {
@@ -228,5 +228,23 @@ footer .footer-rights {
 
     .rightsection{
         width: 700px !important;
+    }
+
+    .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightsection img{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
   }
