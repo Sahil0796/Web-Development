@@ -39,16 +39,17 @@ nav ul li {
     /* margin: 0px 0px; */
 }
 
-.left{
+.left {
     font-size: 25px;
+    margin-left: 100px;
 }
 
-.firstSection > div {
+.firstSection>div {
     width: 30%;
 }
 
 .leftsection {
-   font-size: 2rem;
+    font-size: 2rem;
 }
 
 .rightsection img {
@@ -56,20 +57,116 @@ nav ul li {
     margin: 50px 40px;
 }
 
-.green{
+.green {
     color: greenyellow;
 }
 
-nav ul li a:hover{
- color: greenyellow;
- font-size: 21px;
+#element {
+    color: greenyellow;
 }
 
-a{
+nav ul li a:hover {
+    color: greenyellow;
+    font-size: 21px;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
 
-nav > div:hover{
+nav>div:hover {
     color: greenyellow;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 150vh;
+}
+
+main hr {
+    border: 0;
+    background: white;
+    height: 2px;
+    margin: 50px 100px;
+}
+
+.secondSection h1 {
+    font-size: 40px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection span {
+    font-size: 20px;
+}
+
+.box {
+    background: greenyellow;
+    width: 80vw;
+    height: 2px;
+    margin: 70px 0px;
+    display: flex;
+}
+
+
+.secondSection .vertical {
+    height: 100px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+
+.vertical-title {
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 120px;
+    width: 180px;
+    color: gray;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(41, 56, 56);
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    margin-top: 25px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    padding: 10px 0px;
+    color: rgb(152, 165, 165);
+}
+
+.leftsection .btn{
+    padding: 10px;
 }

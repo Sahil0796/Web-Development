@@ -14,17 +14,17 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+
 
     <header>
         <nav>
             <div class="left">Sahil's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a</li>
-                    <li><a href="/">About</a</li>
-                    <li><a href="/">Services</a</li>
-                    <li><a href="/">Projects</a</li>
+                    <li><a href="/">Home</a< /li>
+                    <li><a href="/">About</a< /li>
+                    <li><a href="/">Services</a< /li>
+                    <li><a href="https://github.com/Sahil0796">Projects</a< /li>
                     <li><a href="/">Contact me</a></li>
                 </ul>
             </div>
@@ -36,14 +36,139 @@
 
             <div class="leftsection">
                 Hey ! My name is <span class="green">Sahil Bhandari</span>.
-                <div>and i am a Web Developer. </div>
+                <div>And i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="bg.png" alt="">
             </div>
 
         </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML & CSS Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dignissimos voluptate
+                        architecto quidem assumenda expedita alias, iusto incidunt animi, doloribus quasi. Ex,
+                        cupiditate rerum dicta nulla laudantium dignissimos quam temporibus soluta, perferendis sit,
+                        amet illum? Consectetur, odio, at dolores dignissimos recusandae excepturi architecto reiciendis
+                        ab inventore minima a impedit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JavaScript.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dignissimos voluptate
+                        architecto quidem assumenda expedita alias, iusto incidunt animi, doloribus quasi. Ex,
+                        cupiditate rerum dicta nulla laudantium dignissimos quam temporibus soluta, perferendis sit,
+                        amet illum? Consectetur, odio, at dolores dignissimos recusandae excepturi architecto reiciendis
+                        ab inventore minima a impedit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title">
+                        ReactJs Developer (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dignissimos voluptate
+                        architecto quidem assumenda expedita alias, iusto incidunt animi, doloribus quasi. Ex,
+                        cupiditate rerum dicta nulla laudantium dignissimos quam temporibus soluta, perferendis sit,
+                        amet illum? Consectetur, odio, at dolores dignissimos recusandae excepturi architecto reiciendis
+                        ab inventore minima a impedit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="mongodb.png" alt="">
+                    <div class="vertical-title">
+                        MongoDB Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dignissimos voluptate
+                        architecto quidem assumenda expedita alias, iusto incidunt animi, doloribus quasi. Ex,
+                        cupiditate rerum dicta nulla laudantium dignissimos quam temporibus soluta, perferendis sit,
+                        amet illum? Consectetur, odio, at dolores dignissimos recusandae excepturi architecto reiciendis
+                        ab inventore minima a impedit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="mysql.png" alt="">
+                    <div class="vertical-title">
+                        PHP & MySQL Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit dignissimos voluptate
+                        architecto quidem assumenda expedita alias, iusto incidunt animi, doloribus quasi. Ex,
+                        cupiditate rerum dicta nulla laudantium dignissimos quam temporibus soluta, perferendis sit,
+                        amet illum? Consectetur, odio, at dolores dignissimos recusandae excepturi architecto reiciendis
+                        ab inventore minima a impedit.
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h1>Sahil's Developer Portfolio</h2>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="third">
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>ReactJS</li>
+                    <li>MongoDB</li>
+                    <li>PHP & MySQL</li>
+                </ul>
+
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Share your feedback</li>
+                    <li>GitHub</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;	 sahilbportfolio.com | All rights reserved&#174; - 2024
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Web Designer.', 'Creator.'],
+            typeSpeed: 70,
+        });
+    </script>
 
 </body>
 
