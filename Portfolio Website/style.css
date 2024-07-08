@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -181,3 +183,50 @@ footer .footer-rights {
     margin-top: 30px;
     color: black;
 }
+
+
+@media screen and (max-width: 1210px) {
+    body{
+      /* background-color: red; */
+    }
+
+    footer{
+        display: none;
+    }
+
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+
+    .secondSection .vertical{
+        height: unset;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
+    .secondSection .box{
+        width: 50vw;
+    }
+
+    .vertical-title, .vertical-desc {
+        left: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .leftsection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightsection{
+        width: 700px !important;
+    }
+  }
