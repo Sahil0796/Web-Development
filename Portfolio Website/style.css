@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -169,11 +167,11 @@ footer .footer-rights {
     color: rgb(152, 165, 165);
 }
 
-.leftsection .buttons{
+.leftsection .buttons {
     padding: 20px 0px;
 }
 
-.leftsection .btn{
+.leftsection .btn {
     padding: 12px;
     border: 2px solid white;
     border-radius: 5px;
@@ -184,41 +182,40 @@ footer .footer-rights {
     color: black;
 }
 
+.box .vertical {
+    margin: 100px;
+}
+
 
 @media screen and (max-width: 1210px) {
-    body{
-      /* background-color: red; */
-    }
 
-    footer{
-        display: none;
-    }
 
-    .firstSection{
+    .firstSection {
         flex-direction: column-reverse;
     }
 
-    .secondSection .vertical{
+    .secondSection .vertical {
         height: unset;
     }
 
-    .box{
+    .box {
         flex-direction: column;
     }
 
-    .secondSection .box{
+    .secondSection .box {
         width: 50vw;
     }
 
-    .vertical-title, .vertical-desc {
+    .vertical-title,
+    .vertical-desc {
         left: 50px;
     }
 
-    nav{
+    nav {
         flex-direction: column;
     }
 
-    .leftsection{
+    .leftsection {
         width: 100% !important;
         display: flex;
         flex-direction: column;
@@ -226,25 +223,77 @@ footer .footer-rights {
         align-items: center;
     }
 
-    .rightsection{
+    .rightsection {
         width: 700px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .secondSection{
+    .secondSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400vh;
         max-width: 80vw;
         margin: auto;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
     }
 
-    .rightsection img{
+    .rightsection img {
         align-items: center;
         display: flex;
         flex-direction: column;
         margin: auto;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 150px;
+        margin-top: 150px;
+        width: 45vw;
     }
-  }
+
+    .image-top {
+        top: 125px;
+    }
+
+    .vertical-desc {
+        margin-bottom: 100px;
+    }
+
+    nav .left {
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+   
+    nav{
+        width: 100vw;
+    }
+
+    nav .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .rightsection img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 200px;
+        margin-right: 0px;
+    }
+
+    .leftsection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 275px;
+        
+    }
+
+}
